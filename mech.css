@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e5e5e5;
+
+}
+
+.form-container {
+    display: flex;
+    height: 98vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-container .form-wrap{
+    width: 40%;
+    padding: 4px 10px;
+
+}
+
+.form-container .form-wrap .img {
+    
+    position: absolute;
+    width: 53px;
+    height: 52px;
+    left: 693px;
+    top: 82px;
+}
+
+.form-container .form-wrap .mic {
+    position: absolute;
+    width: 157px;
+    height: 45px;
+    left: 641px;
+    top: 150px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 45px;
+}
+
+.form-container .form-wrap h2 {
+    
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    left: 594px;
+    top: 230px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #16172D;
+}
+
+
+.form-container .form-wrap .form-box {
+    margin: 0px 0px 15px ;
+}
+
+.form-container .form-wrap .form-box p {
+    position: absolute;
+    width: 440px;
+    height: 39px;
+    left: 500px;
+    top: 326px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #1A1B2D;
+
+}
+
+.form-container .form-wrap .form-box input[type="text"]{
+    
+    position: absolute;
+    width: 440px;
+    height: 60px;
+    left: 500px;
+    top: 359.47px;
+
+    background: #FFFFFF;
+    border: 0.5px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+
+.form-container .form-wrap .form-submit{
+    display: flex;
+}
+
+.form-container .form-wrap .form-submit input[type="submit"] {
+    position: absolute;
+    width: 440px;
+    height: 60px;
+    left: 500px;
+    top: 450px;
+
+    background: #67A766;
+    border-radius: 5px;
+       
+}
+
+.contact p {
+    
+position: absolute;
+width: 90px;
+height: 24px;
+left: 675px;
+top: 602px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+color: #828282;
+}
+
+.reserved {
+    
+position: absolute;
+width: 236px;
+height: 24px;
+left: 602px;
+top: 846px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: rgba(1, 2, 22, 0.8);
+}
+
+
+/* media queries */
+@media (max-width: 768px){
+    .form-container .form-wrap{
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    
+    .form-container .form-wrap .form-submit{
+  
+        width: 60%;
+  
+    }
+  }
+
